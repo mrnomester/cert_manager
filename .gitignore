@@ -1,5 +1,18 @@
 # Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
 *.py[codz]
 *$py.class
 
