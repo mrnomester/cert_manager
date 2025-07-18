@@ -1,0 +1,72 @@
+/* Dark Theme */
+QWidget[darkMode="true"] {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 14px;
+}
+
+QGroupBox[darkMode="true"] {
+    border: 1px solid #3a3a3a;
+    background-color: #252525;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+QLineEdit[darkMode="true"], 
+QListWidget[darkMode="true"], 
+QTextEdit[darkMode="true"] {
+    background-color: #2d2d2d;
+    border: 1px solid #3a3a3a;
+    color: #e0e0e0;
+    selection-background-color: #3a3a3a;
+    selection-color: white;
+    font-family: 'Consolas', monospace;
+}
+
+QPushButton[darkMode="true"] {
+    background-color: #3a3a3a;
+    border: 1px solid #4a4a4a;
+    color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 3px;
+    min-width: 80px;
+}
+
+QPushButton[darkMode="true"]:hover {
+    background-color: #4a4a4a;
+}
+
+QPushButton[darkMode="true"]:pressed {
+    background-color: #2a2a2a;
+}
+
+QTabBar::tab[darkMode="true"] {
+    background: #252525;
+    border: 1px solid #3a3a3a;
+    color: #e0e0e0;
+    padding: 8px 15px;
+}
+
+QTabBar::tab:selected[darkMode="true"] {
+    background: #353535;
+    border-bottom: 1px solid #353535;
+}
+
+QTabWidget::pane[darkMode="true"] {
+    border: 1px solid #3a3a3a;
+    background: #353535;
+}
+
+QStatusBar[darkMode="true"] {
+    background-color: #252525;
+    color: #a0a0a0;
+}
+
+/* Лог - обратный порядок строк */
+QTextEdit[darkMode="true"] {
+    font-family: 'Consolas', monospace;
+    font-size: 12px;
+    color: #e0e0e0;
+}
