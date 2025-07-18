@@ -60,3 +60,8 @@ Certificate Manager Utility
 
 Разработчик:
 Кодельник Максим. IT отдел ГЕНШТАБ
+
+Внешний вид:
+
+<img width="1003" height="732" alt="image" src="https://github.com/user-attachments/assets/f9440318-a8c8-4dff-ab7d-e48bb11422ff" />
+
